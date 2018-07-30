@@ -1,0 +1,16 @@
+textureViewer for Interactive 3D Graphics and Animation
+-----------------------------------------------------------------------
+
+
+Building the source
+===================
+
+Use the Makefile. It assumes libSOIL.a and SOIL.h are in the
+same directory as the application - be better to put them
+in a separate directory.
+
+If doing this on a machine without the SOIL library then 
+download the SOIL source and compile it: http://www.lonesock.net/soil.html.
+Then copy the static library, i.e. libSOIL.a to the current directory
+along with SOIL.h
+
